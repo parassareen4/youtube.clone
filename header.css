@@ -43,9 +43,9 @@
 
 .search-bar {
   flex: 1;
-  height: 36px;
+  height: 35px;
   padding-left: 10px;
-  font-size: 16px;
+  font-size: 40px;
   border-width: 1px;
   border-style: solid;
   border-color: rgb(192, 192, 192);
@@ -60,7 +60,7 @@
 }
 
 .search-button {
-  height: 40px;
+  height: 35px;
   width: 66px;
   background-color: rgb(240, 240, 240);
   border-width: 1px;
@@ -164,4 +164,21 @@
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
+}
+
+
+.search-bar {
+  width: 180px;
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .search-bar {
+      width: 100%;
+  }
 }
